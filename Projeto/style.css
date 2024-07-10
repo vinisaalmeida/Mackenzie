@@ -66,10 +66,16 @@ header {
     z-index: 3;
 }
 
-#titulo {
+#Especialidades {
     font-size: 2rem;
     color: #433F3E;
 }
+
+#Convenios {
+    font-size: 2rem;
+    color: #433F3E;
+}
+
 .nav_links{
     list-style: none;
 

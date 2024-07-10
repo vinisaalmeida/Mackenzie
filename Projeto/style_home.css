@@ -111,6 +111,8 @@ section {
     flex-direction: column;
     gap: 28px;
     margin-top: 5%;
+    text-align: justify;
+    width: 80%;
 }
 
 #sobre_ceo {
@@ -121,9 +123,10 @@ section {
     font-size: 1rem;
 }
 
-#Ma{
+#Ma {
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
 }
 
 #grande_div {
@@ -135,8 +138,14 @@ section {
     border-radius: 50px;
 }
 
+
 #Ma h1 {
     color: mediumaquamarine;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
 }
 /* ------------------------------------ */
 /* Personalização do Endereço */
@@ -144,6 +153,7 @@ section {
 #Endereco h1 {
     font-size: 3rem;
     color: #433F3E;
+    margin-top: 1px;
 }
 
 #posicao_endereco{
@@ -198,8 +208,20 @@ section {
 
 #posicao_celular {
     display: flex;
+    align-items: center;
     margin-top: 20px;
     margin-left: 10px;
+}
+
+#pos_whatsApp {
+    margin-left: 10px;
+}
+#pos_telefone {
+    margin-left: 10px;
+}
+#whatsApp a{
+    display: flex;
+    align-items: center;
 }
 
 #pos_cel {
