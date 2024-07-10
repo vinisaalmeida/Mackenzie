@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+section {
+    padding: 28px 8%;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    width: 450px;
+    margin: 10px;
+    box-shadow: 0 4px 5px #69B7BA;
+    border-radius: 5px;
+    background-color: #BCE5DE;
+
+}
+
+.card h2 {
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card p {
+    margin: 25px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    color: #038487;
+}
+
+.card .btn {
+    display: block;
+    margin: 10px auto
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(154, 153, 153, 0.826);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+#titulo {
+    font-size: 2rem;
+    color: #433F3E;
+}
+.nav_links{
+    list-style: none;
+
+
+}
+.nav_links li {
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 15px;
+}
+.nav_links{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #01838A;
+}

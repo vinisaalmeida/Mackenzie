@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.826);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ------------- Personalizando o Menu ------------- */
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(154, 153, 153, 0.826);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+.nav_links{
+    list-style: none;
+
+
+}
+.nav_links li {
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 15px;
+}
+.nav_links{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #01838A;
+}
+/* ------------------------------------ */
+/* Personalizando o corpo do site */
+section {
+    padding: 28px 8%;
+}
+
+#home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+    min-height: 60vh;
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 4rem;
+    color: mediumaquamarine;
+}
+#posicao_cta {
+    display: flex;
+}
+
+#banner img{
+    width: 600px;
+    height: 400px;
+
+}
+#banner {
+    margin: 100px;
+}
+#teste{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+/* ------------------------------------ */
+/* Sobre Nós personalização */
+
+#Sobre{
+    min-height: 80vh;
+}
+#Sobre h1 {
+    font-size: 4rem;
+    color: #433F3E;
+}
+#Sobre p {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#sobre_ceo {
+    margin-top: 20px;
+}
+
+#sobre_ceo h1 {
+    font-size: 1rem;
+}
+
+#Ma{
+    display: flex;
+    flex-direction: column;
+}
+
+#grande_div {
+    display: flex;
+}
+#Ma img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#Ma h1 {
+    color: mediumaquamarine;
+}
+/* ------------------------------------ */
+/* Personalização do Endereço */
+
+#Endereco h1 {
+    font-size: 3rem;
+    color: #433F3E;
+}
+
+#posicao_endereco{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+#posicao_endereco p {
+    margin-top: 5px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#posicao_mapa{
+    display: inline-flex;
+    flex-direction: row;
+}
+/* ------------------------------------ */
+
+/* Personalização da parte de Contato */
+#Contato h1 {
+    font-size: 3rem;
+    color: #433F3E;
+}
+.icone {
+    width: 30px;
+    height: 30px;
+}
+
+#posicao_icone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#posicao_icone a {
+    display: flex;
+    align-items: center;
+}
+.icone a {
+    display: flex;
+    align-items: center;
+}
+.icone img {
+    margin: 10px;
+}
+
+#posicao_celular {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#pos_cel {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#pos_cel a:hover {
+    color: #60CCB8;
+}
+
+#Contato {
+    min-height: 50vh;
+}
+
+#Contato p {
+    margin-top: 25px;
+}
+
+.icone a:hover {
+    color: #60CCB8;
+}
+/* ------------------------------------ */
